@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yoga Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+  <link href="./font-awesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <input name="page-theme" type="radio" id="radio-button" class="light-radio-button" checked />
+  <input name="page-theme" type="radio" id="radio-button2" class="dark-radion-button" />
+
+  <main>
+    <div>
+      <div id="light-dark-modes">
+        <label class="mode-label" for="radio-button">Light <span class="icon">☀️</span></label>
+        <label class="mode-label" for="radio-button2">Dark <span class="icon">🌙</span></label>
+      </div>
+    </div>
+
+    <nav>
+      <div class="title">Yoga for Every Body</div>
+      <label for="mobile-menu-humburger">&#9776;</label>
+      <input type="checkbox" id="mobile-menu-humburger" />
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#customization">Courses</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <video autoplay muted loop>
+        <source src="video/231285_small.mp4" type="video/mp4" />
+      </video>
+      <div class="content">
+        <div id="text-content">
+          <h1>Yoga Courses</h1>
+          <p>Find Balance, Flexibility, and Peace</p>
+        </div>
+        <div id="buttons">
+          <a href="#about">SEE MORE ABOUT US <i class="fas fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="sec">
+      <div class="about-meditation">
+        <h1>About Our Yoga Studio</h1>
+        <p>
+          Yoga is a practice that combines physical postures, breathing techniques, and mindfulness. Whether you’re looking to improve flexibility, build strength, or find inner peace, yoga meets you where you are.
+        </p>
+        <p>
+          Our mission is to create a welcoming space for everyone—from beginners to experienced practitioners—to explore yoga and discover their best selves.
+        </p>
+        <div class="aboutPicture">
+          <img src="./images/aboutMed.jpg" alt="Yoga practice" class="humanMedPic" />
+        </div>
+      </div>
+    </section>
+
+    <section id="customization" class="sec">
+      <h1>Our Yoga Courses</h1>
+      <div id="course-details">
+        <div class="mindfullness custom-boxes">
+          <a href="./images/hatha.jpeg"><img src="./images/hatha.jpeg" alt="Hatha Yoga"  class="books"  /></a>
+          <h2>Hatha Yoga</h2>
+          <p>Perfect for beginners, Hatha focuses on gentle postures and breath control.</p>
+        </div>
+        <div class="spiritual custom-boxes">
+          <a href="./images/Vinyasa.jpeg"><img src="./images/Vinyasa.jpeg" alt="Vinyasa Flow" class="books" /></a>
+          <h2>Vinyasa Flow</h2>
+          <p>A dynamic sequence of poses that builds strength and endurance.</p>
+        </div>
+        <div class="focused custom-boxes">
+          <a href="./images/Yin.jpeg"><img src="./images/Yin.jpeg" alt="Yin Yoga" class="books" /></a>
+          <h2>Yin Yoga</h2>
+          <p>Slow-paced and meditative, Yin targets deep tissues and joints.</p>
+        </div>
+        <div class="mantra custom-boxes">
+          <a href="./images/physique.jpg"><img src="./images/physique.jpg" alt="Power Yoga"class="books"  /></a>
+          <h2>Power Yoga</h2>
+          <p>Fast-paced, high-energy yoga for those wanting a physical challenge.</p>
+        </div>
+        <div class="relaxation custom-boxes">
+          <a href="./images/man-doing-yoga.jpg"><img src="./images/man-doing-yoga.jpg" alt="Restorative Yoga" class="books" /></a>
+          <h2>Restorative Yoga</h2>
+          <p>Relax deeply with supported poses, breathing, and stillness.</p>
+        </div>
+        <div class="guided custom-boxes">
+          <a href="./images/Prenatal.jpeg"><img src="./images/Prenatal.jpeg" alt="Prenatal Yoga" class="books" /></a>
+          <h2>Prenatal Yoga</h2>
+          <p>Gentle sequences for expectant mothers to support mind and body.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="sec">
+      <h2>Inspiration & Learning</h2>
+      <div class="box-pics">
+        <div class="gallery-boxes"><a href="images/book2.jpg"><img src="images/book2.jpg" alt="Yoga book" /></a></div>
+        <div class="gallery-boxes"><a href="./images/book3.jpg"><img src="./images/book3.jpg" alt="Yoga book" /></a></div>
+        <div class="gallery-boxes"><a href="./images/book4.jpg"><img src="./images/book4.jpg" alt="Yoga book" /></a></div>
+        <div class="gallery-boxes"><a href="./images/book5.jpg"><img src="./images/book5.jpg" alt="Yoga book" /></a></div>
+        <div class="gallery-boxes"><a href="./images/book6.webp"><img src="./images/book6.webp" alt="Yoga book" /></a></div>
+        <div class="gallery-boxes"><a href="./images/med-books.webp"><img src="./images/med-books.webp" alt="Yoga book" /></a></div>
+      </div>
+    </section>
+
+    <section id="pricing" class="sec">
+      <h2>Membership Pricing</h2>
+      <div class="container-fluid allPrices">
+        <div class="box-prices">
+          <div class="img-price">
+            <a href="./images/basic.jpg " ><img src="./images/basic.jpg" alt="Yoga plan"/></a>
+            <div class="text-display">
+              <h3>Basic Plan</h3>
+              <p>$85 / year</p>
+              <p>Includes access to Hatha and Yin classes, online videos, and community events.</p>
+            </div>
+          </div>
+          <div class="img-price reverse-info">
+            <a href="./images/advanced.jpg"><img src="./images/advanced.jpg" alt="Yoga plan" /></a>
+            <div class="text-display">
+              <h3>Advanced Plan</h3>
+              <p>$110 / year</p>
+              <p>Full access to all yoga styles, workshops, and group meditations.</p>
+            </div>
+          </div>
+          <div class="img-price">
+            <a href="./images/premium.jpg"><img src="./images/premium.jpg" alt="Yoga plan" /></a>
+            <div class="text-display">
+              <h3>Premium Plan</h3>
+              <p>$150 / year</p>
+              <p>Includes everything plus 1-on-1 coaching, priority retreat bookings, and exclusive content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="sec">
+      <div class="form-box">
+        <form action="" method="post">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <input class="personal-info" id="name" type="text" placeholder="Your Name" required />
+            <input class="personal-info" type="email" placeholder="Email" required />
+            <textarea class="personal-info" name="comments" id="message" placeholder="Your Message"></textarea>
+            <button class="personal-info" id="button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Yoga for Every Body. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
